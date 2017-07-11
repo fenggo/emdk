@@ -1,0 +1,19 @@
+
+coord        pdb
+file         Nanocluster.pdb
+
+cell part      112
+
+element       2 Zn O
+
+
+output        xyz
+
+cellvect 
+      40.0       0.000000       0.000000
+      0.0      40.0      0.000000
+       0.000000       0.000000      40.000000
+
+supercell 1 1 1
+
+

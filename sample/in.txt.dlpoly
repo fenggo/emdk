@@ -1,0 +1,19 @@
+
+coord    xyz
+file         mol.xyz
+
+element      4 C H O  N 
+masses       12.0  1.0080 15.9994 14.0  
+
+output      dlpolyfield
+
+cellpara  1
+  18.394390 22.1006440 30.304020 90.0 90.0 90.0
+
+cellpart     36
+
+
+supercell    1 1 1
+
+
+

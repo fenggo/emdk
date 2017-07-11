@@ -1,0 +1,24 @@
+
+&coord&         car
+&file&          rdx.car
+
+&cellpart&      168
+
+&element&      4  C  H  O N 
+
+&masses&       12.000 1.008 15.999 14.000
+
+&output&       database
+
+&cellpara& 1
+   13.1820   11.5740   10.7090   90.0000   90.0000   90.0000
+
+&supercell& 1 1 1
+
+
+#&MappingLattice& ture
+
+
+
+
+

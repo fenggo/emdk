@@ -1,0 +1,77 @@
+&GLOBAL
+  RUN_TYPE MD
+  PRINT_LEVEL LOW
+  &TIMINGS
+  &END
+&END GLOBAL
+
+
+&MOTION
+  &MD
+   ENSEMBLE NVE
+   STEPS 10
+   TIMESTEP 0.5
+   TEMPERATURE 300.0
+  &END MD
+&END MOTION
+
+
+&FORCE_EVAL
+  METHOD QS
+  &DFT
+    BASIS_SET_FILE_NAME GTH_BASIS_SETS
+     POTENTIAL_FILE_NAME POTENTIAL
+  &END DFT
+  &SUBSYS
+   &KIND C 
+     BASIS_SET TZV2P-GTH
+     POTENTIAL GTH-PADE-q1
+   &END KIND
+   &KIND H 
+     BASIS_SET TZV2P-GTH
+     POTENTIAL GTH-PADE-q1
+   &END KIND
+   &KIND O 
+     BASIS_SET TZV2P-GTH
+     POTENTIAL GTH-PADE-q1
+   &END KIND
+   &KIND N 
+     BASIS_SET TZV2P-GTH
+     POTENTIAL GTH-PADE-q1
+   &END KIND
+   &CELL
+     ABC     5.22800     6.29300     8.66400
+   &END CELL
+   &COORD
+C           3.37162607         -0.29118098          7.40712149
+C           4.47031758          6.58414323          3.07509109
+C           1.85626887          2.85527063          5.58908169
+C           0.75769877          3.43750757          1.25719920
+H           2.46750883          0.19546236          7.85433984
+H           3.15593654         -0.51523956          6.34651520
+H           3.65193323         -1.17767418          7.99545825
+H           5.37435414          6.09737039          3.52232300
+H           4.68617198          6.80817534          2.01455243
+H           4.19010390          7.47055400          3.66371293
+H           2.76031647          3.34194436          5.14176210
+H           2.07212069          2.63143886          6.64966154
+H           1.57602750          1.96872616          5.00070938
+H          -0.14637978          2.95099571          0.80977620
+H           0.54188341          3.66134259          2.31779578
+H           1.03801678          4.32407823          0.66888562
+O           5.24481961          0.65287732          8.42919976
+O           4.49116916          1.56668731          6.58896460
+O           2.59716515          5.63994839          4.09719331
+O           3.35080136          4.72623393          2.25692792
+O          -0.01684794          3.79935553          4.56680941
+O           0.73670131          4.71322891          6.40704399
+O           2.63082839          2.49361145          0.23479695
+O           1.87725234          1.57946820          2.07491383
+N           4.45042974          0.69225696          7.46852629
+N           3.39154495          5.60063876          3.13651219
+N           0.77748306          3.83874833          5.52753207
+N           1.83648389          2.45404444          1.19549973
+   &END COORD
+  &END SUBSYS
+&END FORCE_EVAL
+

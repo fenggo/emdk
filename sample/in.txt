@@ -1,0 +1,13 @@
+%coord      xyz
+%file       cif.xyz
+
+%cellpart   28
+
+%output     gulp_ff opt
+%element      4 C H O  N 
+%masses        12.000 1.008 15.999 14.0
+
+%cellvector
+10 0 0
+0 10 0
+0 0 10

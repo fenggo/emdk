@@ -1,0 +1,20 @@
+
+&coord&        pdb
+&file&         tatb.pdb
+
+&element&      4 C H O N 
+&masses&       12.000 1.008 15.999 14.000
+
+&output&        cfg
+
+&cellvect& 
+9.01        0.          0.       
+ -4.50990564  7.8208398   0.        
+ -0.21634674 -2.63027389  6.27998387
+
+
+&supercell& 1 1 1
+
+
+
+

@@ -1,0 +1,28 @@
+
+export PATH=/home/feng/exe:$PATH
+
+#source /opt/intel/bin/compilervars.sh intel64
+#source /home/feng/mathlib/bin/compilervars.sh intel64
+#source /home/feng/MolecularTools/ffe/FFESetupLinux.sh
+
+
+
+##gaussian 09 start###################这是注释部分，你可以随意写东西
+export g09root=/home/feng          #这里是你的gaussian文件存放的位置
+export GAUSS_SCRDIR=/home/feng/.temp/g09  #G09 Scratch文件目录,可以随意填写位置
+source $g09root/g09/bsd/g09.profile    #G09环境变量设置
+export GV_DIR=$g09root/gv                 #Gaussian View目录,这里的意思是gv安装在了/home/username/gv 的位置，当然，可以灵活变动。
+alias g09v='$GV_DIR/gview'                #Gaussian View别名
+##gaussian 09 end#####################这里也是注释，就是方便以后修改
+
+
+
+export PYTHONPATH=/home/feng-home/emdk/pyemdk/:$PYTHONPATH
+
+export GV_DIR=/home/feng-home/.local/gview
+export LIBPATH=/home/feng-home/.local/gview
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/feng-home/.local/gview/lib
+PATH=$PATH:/home/feng-home/.local/gview
+alias gv='gview.exe'
+
+

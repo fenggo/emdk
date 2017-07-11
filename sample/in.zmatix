@@ -1,0 +1,12 @@
+
+%coord%         pdb
+%file%          card.pdb
+
+%element%      4  C  H  O N 
+%masses%       12.000 1.008 15.999 14.000
+
+%output%       zmatrix
+
+%cellpara% 1
+   10 10 10   90.00  90.00  90.00  
+

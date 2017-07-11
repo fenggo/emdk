@@ -1,0 +1,24 @@
+﻿
+coord        car
+file         nmd.car
+
+cellpart     14308
+
+element      4 C H O N 
+
+output       xyz
+
+cellpara 1
+    40.5150   48.7680   67.1420   90.0000   90.0000   90.0000 
+
+supercell 1 1 1
+
+
+zo om  1.0 1.0 1.0
+
+Mapping Lattice ture
+
+defect 1
+0.0 0.0 0.0 20   圆心和半径
+
+center       true

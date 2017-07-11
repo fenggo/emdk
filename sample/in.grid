@@ -1,0 +1,28 @@
+
+%coord         xyz
+%file          layer.xyz
+
+%cellpart      448 
+
+%element      4  C  H  O N
+
+%output       lammpsdata
+
+%cellpara 1
+   5.228000   25.17200   34.655998   90.00  90.00  90.00  
+
+%supercell 42 1 1
+
+%totgrid 42
+
+
+%fixgrid  1
+%delgrid  2
+%delgrid  3
+%delgrid   4
+%delgrid   5
+%delgrid   6
+%delgrid   7
+%delgrid   8
+%delgrid   9
+

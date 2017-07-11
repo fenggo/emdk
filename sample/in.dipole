@@ -1,0 +1,1 @@
+coord        xyzfile         pos.xyzelement      4 C H O  N masses       12.00 1.008 15.999 14.000output       cp2kshock 3.5cellpart     28cellpara 15.228    6.293    8.664  90.00  90.00  90.00dipolere mov h2o supercell   1 1 1

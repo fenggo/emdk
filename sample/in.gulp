@@ -1,0 +1,35 @@
+
+%coord%         xyz
+%file%          layer-z.xyz
+
+%cellpart%      1792 
+
+%element%      4  C  H  O N 
+
+%output%       gulp
+
+%cellpara% 1
+   41.82400   50.34400   8.664   90.00  90.00  90.00  
+
+%supercell% 1 1 10
+
+
+%MappingLattice% ture
+
+
+ 1792 atoms in every %grid%
+
+%totgrid% 10
+
+%fixgrid%  1
+%fixgrid%  2
+
+%delgrid%  7
+%delgrid%  8
+%delgrid%  9
+%delgrid%  10
+
+
+
+
+

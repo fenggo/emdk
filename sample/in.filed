@@ -1,0 +1,13 @@
+%coord        xyz
+%file         hmx.xyz
+
+%cellpart     28
+
+%element      4  C  H  O N 
+%masses       12.000 1.008 15.999 14.000
+
+%output       ffield
+
+%cellpara 1
+   10  10  10   90.00  90.00  90.00  
+

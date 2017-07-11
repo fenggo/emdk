@@ -1,0 +1,18 @@
+%coord      xyz
+%file       cl20mol.xyz
+
+%cellpart   36
+
+%output     cfg
+%element      4 C H O  N 
+%masses        12.000 1.008 15.999 14.0
+
+%cellvector
+10 0 0
+0 10 0
+0 0 10
+
+%stretch fb bonds free
+nwchem  C014   H010 6-311g
+dr 0.02 elongation 8 shorten 8
+fix-end 1  move-end 3 to-be-moved 2 atoms 5 4 

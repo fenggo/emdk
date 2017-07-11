@@ -1,0 +1,7 @@
+%structure  molhmx
+
+%output     xyz
+
+%rotate     2  3 18 20 40 5  # 2 in groups to rotate. 
+26   8.13517                 # atom123 3 18 20 number 40 dtha: 5
+28  -173.38828      # O atom

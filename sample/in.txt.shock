@@ -1,0 +1,18 @@
+
+coord        xyz
+file         mix2.xyz
+
+element      4 C H O  N 
+masses       12.000 1.008 15.999 14.000
+
+output       lammpsshock 3.5
+
+cellpara  1
+ 74.235   38.245   60.067  90.00  90.00  90.00 
+
+cellpart      19584 
+
+
+supercell    1 1 1
+
+

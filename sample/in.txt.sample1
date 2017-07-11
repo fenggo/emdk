@@ -1,0 +1,25 @@
+
+coord        lammpsdata
+file         data.dec
+
+element      2 O  N 
+masses       15.999 14.0
+
+output       lammpsdata
+
+cellpara  1
+  18.394390 22.1006440 30.304020 90.0 90.0 90.0
+
+cellpart     1792
+
+
+supercell    1 1 1
+
+center       true
+
+zoom          0.98554977246120590 
+
+stretch 3 # number of bonds to stretch in one molecular
+dr 0.02 enlongation 8 shorten 8
+fix-end 1  move-end 3 to-be-moved 3 atoms 5 4 3
+
